@@ -1,5 +1,6 @@
 from turtle import Screen, Turtle
 from paddle_class import Paddle
+from ball_class import Ball
 
 BG_COLOR = "black"
 WIDTH = 800
@@ -13,10 +14,8 @@ screen.tracer(0)
 
 paddle_right = Paddle(350)
 paddle_left = Paddle(-350)
+ball = Ball()
 
-ball = Turtle(shape="circle")
-ball.color("white")
-ball.goto(x=380, y=280)
 
 
 screen.listen()
