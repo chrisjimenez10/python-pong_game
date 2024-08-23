@@ -38,7 +38,7 @@ screen.onkey(fun=paddle_left.down, key="s")
 game_is_on = True
 while game_is_on:
     # Here, with time.sleep() method we are pausing/sleeping our while loop before the subsequent iteration
-    time.sleep(0.1)
+    time.sleep(ball.move_speed)
     screen.update()
     ball.move()
 
