@@ -27,4 +27,3 @@ class Ball(Turtle):
         self.home()
         self.move_speed = 0.1
         self.bounce_x()
-

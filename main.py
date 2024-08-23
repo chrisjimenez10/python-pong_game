@@ -62,9 +62,4 @@ while game_is_on:
         score.increment_score(side="right")
 
 
-
-
-
-
-
 screen.exitonclick()
