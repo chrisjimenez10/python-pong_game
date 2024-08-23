@@ -1,7 +1,7 @@
 from turtle import Turtle
 
 ALIGNMENT = "center"
-FONT = ("Courier", 12, "bold")
+FONT = ("Courier", 18, "bold")
 
 class ScoreBoard(Turtle):
     def __init__(self, left_player, right_player):
@@ -10,7 +10,7 @@ class ScoreBoard(Turtle):
         self.right_player = right_player
         self.hideturtle()
         self.color("white")
-        self.teleport(y=280)
+        self.teleport(y=260)
         self.score_left = 0
         self.score_right = 0
         self.update_score()
