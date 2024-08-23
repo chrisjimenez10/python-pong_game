@@ -1,6 +1,6 @@
 from turtle import Turtle
 
-INCREMENT = 20
+INCREMENT = 30
 STRETCH_WID = 5
 STRETCH_LEN = 1
 PADDLE_COLOR = "white"
